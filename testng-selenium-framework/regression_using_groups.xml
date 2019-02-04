@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Web Orders Regression Tests">
+
+    <test name="Regression">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.weborders.tests.functional_tests.login.ErrorMessageValidationTest"/>
+            <class name="com.weborders.tests.functional_tests.order.checkPrice"/>
+        </classes>
+
+    </test>
+</suite>

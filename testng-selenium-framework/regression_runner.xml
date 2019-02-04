@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Web Orders Regression test suite">
+
+    <test name="Regression">
+
+        <packages>
+            <package name=".*"/>
+        </packages>
+    </test>
+</suite>
